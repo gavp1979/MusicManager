@@ -3,7 +3,7 @@ object Form1: TForm1
   Top = 0
   Caption = 'Form1'
   ClientHeight = 201
-  ClientWidth = 447
+  ClientWidth = 270
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -13,4 +13,13 @@ object Form1: TForm1
   OldCreateOrder = False
   PixelsPerInch = 96
   TextHeight = 13
+  object SplitView1: TSplitView
+    Left = 0
+    Top = 0
+    Width = 449
+    Height = 201
+    OpenedWidth = 200
+    Placement = svpLeft
+    TabOrder = 0
+  end
 end
